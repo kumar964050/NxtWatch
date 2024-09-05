@@ -1,0 +1,47 @@
+.dark-theme {
+  font-size: 24px;
+}
+
+.popup-content {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.space-container {
+}
+
+.list-style {
+  text-decoration: none;
+}
+
+.popup-container {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+
+.trigger-button {
+  border: 0px;
+  background-color: transparent;
+}
+
+.popup-content {
+  min-height: 100vh;
+  width: 100%;
+  padding: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .popup-content {
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    align-items: center;
+  }
+}
+
+.list-style {
+  text-decoration: none;
+}
